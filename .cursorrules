@@ -1,0 +1,22 @@
+# Project Guidelines
+
+This is a personal website project. Follow these guidelines when working on this codebase:
+
+## Code Style
+- Use modern, clean code practices
+- Prefer functional programming where appropriate
+- Write maintainable and readable code
+- use React.ts
+
+## File Organization
+- Keep related files together
+- Use clear, descriptive file and folder names
+- Follow conventional project structure patterns
+
+## Best Practices
+- Ensure responsive design for all components
+- Optimize for performance
+- Maintain accessibility standards
+- Write self-documenting code, without comments
+- make all constants, text, names and data stored as variables in specific relevant files.
+
