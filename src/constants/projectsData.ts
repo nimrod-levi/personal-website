@@ -17,10 +17,10 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Project Three",
-    description: "A description of project three",
-    technologies: ["React", "Node.js"],
-    link: "#"
+    title: "Personal Website",
+    description: "This one you're looking at right now",
+    technologies: ["React", "Vite", "CSS", "TypeScript"],
+    link: "https://github.com/nimrod-levi/personal-website"
   }
 ]
 
