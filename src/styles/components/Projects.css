@@ -63,8 +63,50 @@
 }
 
 @media (max-width: 768px) {
+  .projects {
+    padding: 3rem 0;
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 2.5rem 0;
+  }
+
+  .projects-grid {
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .project-card {
+    padding: 1.25rem;
+  }
+
+  .project-title {
+    font-size: 1.125rem;
+  }
+
+  .project-description {
+    font-size: 0.9375rem;
+  }
+
+  .project-tech {
+    font-size: 0.8125rem;
+    padding: 0.2rem 0.625rem;
   }
 }
 

@@ -75,19 +75,36 @@ body {
   margin: 0 auto 3rem;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 @media (max-width: 768px) {
   .section-heading {
     font-size: 2rem;
   }
-}
 
-@media (max-width: 480px) {
-  .container {
+  .section-description {
+    font-size: 1rem;
+    margin: 0 auto 2rem;
     padding: 0 1rem;
   }
 
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
   .section-heading {
     font-size: 1.75rem;
+  }
+
+  .section-description {
+    font-size: 0.9375rem;
+    margin: 0 auto 1.5rem;
   }
 }
 

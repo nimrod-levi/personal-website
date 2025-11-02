@@ -89,8 +89,37 @@
 }
 
 @media (max-width: 768px) {
+  .contact {
+    padding: 3rem 0;
+  }
+
   .contact-links {
     flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .contact-icon-link svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 2.5rem 0;
+  }
+
+  .contact-links {
+    gap: 1.25rem;
+  }
+
+  .contact-icon-link {
+    padding: 0.625rem;
+  }
+
+  .contact-icon-link svg {
+    width: 24px;
+    height: 24px;
   }
 }
 

@@ -119,6 +119,16 @@
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 0 1rem 0 0;
+  }
+
+  .nav-logo {
+    font-size: 1.25rem;
+  }
+
   .nav-toggle {
     display: flex;
   }
@@ -138,6 +148,27 @@
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    padding: 0 0.75rem 0 0;
+  }
+
+  .nav-logo {
+    font-size: 1.125rem;
+  }
+
+  .theme-toggle svg {
+    width: 18px;
+    height: 18px;
   }
 }
 
