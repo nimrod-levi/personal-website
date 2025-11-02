@@ -11,3 +11,13 @@
   font-size: 0.875rem;
 }
 
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer-text {
+    font-size: 0.8125rem;
+  }
+}
+
