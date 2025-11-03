@@ -9,8 +9,8 @@ const Projects: React.FC = () => {
         <h2 className="section-heading">{projectsHeading}</h2>
         <p className="section-description">{projectsDescription}</p>
         <div className="projects-grid">
-          {projects.map(project => (
-            <div key={project.id} className="project-card">
+          {projects.map((project, index) => (
+            <div key={index} className="project-card">
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>
               <div className="project-technologies">
@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
                   <span key={index} className="project-tech">{tech}</span>
                 ))}
               </div>
-              <a href={project.link} target="_blank" className="project-link">View Project</a>
+              {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>}
             </div>
           ))}
         </div>
