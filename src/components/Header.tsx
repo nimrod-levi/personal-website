@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { useTheme } from '../contexts/ThemeContext'
 import { navigationItems, themeToggleLightLabel, themeToggleDarkLabel, siteName } from '../constants/siteData'
 import { SunIcon, MoonIcon } from '../constants/icons'
@@ -6,13 +6,29 @@ import { SunIcon, MoonIcon } from '../constants/icons'
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
   const { isDarkMode, toggleTheme } = useTheme()
+  const headerRef = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    const header = headerRef.current
+    if (!header) return
+
+    const updateHeaderHeight = (): void => {
+      document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`)
+    }
+
+    updateHeaderHeight()
+    const resizeObserver = new ResizeObserver(updateHeaderHeight)
+    resizeObserver.observe(header)
+
+    return () => resizeObserver.disconnect()
+  }, [])
 
   const toggleMenu = (): void => {
     setIsMenuOpen(!isMenuOpen)
   }
 
   return (
-    <header className="header">
+    <header ref={headerRef} className="header">
       <nav className="nav">
         <div className="nav-container">
           <div className="nav-left">
