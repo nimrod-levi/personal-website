@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="geometricPrecision" text-rendering="optimizeLegibility">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1f3a"/>
+      <stop offset="1" stop-color="#0a1a2f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
+  <!-- Two intertwining smooth curves forming an abstract N -->
+  <path d="M14 44 C18 18, 28 18, 32 44 S46 44, 50 20" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M14 20 C18 44, 28 44, 32 20 S46 20, 50 44" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="3.25" stroke-linecap="round"/>
+</svg>
+
