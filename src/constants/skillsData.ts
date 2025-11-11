@@ -17,6 +17,10 @@ export const skills: SkillCategory[] = [
       { name: 'React', level: 'silver' },
       { name: 'Node.js', level: 'silver' },
       { name: 'Vite', level: 'bronze' },
+      { name: 'Pandas', level: 'gold' },
+      { name: 'Shapely', level: 'silver' },
+      { name: 'NumPy', level: 'silver' },
+      { name: 'Plotly Express', level: 'silver' },
     ],
   },
   {
@@ -48,7 +52,6 @@ export const skills: SkillCategory[] = [
       { name: 'Kubernetes', level: 'silver' },
       { name: 'OpenShift', level: 'silver' },
       { name: 'Git', level: 'gold' },
-      { name: 'CI/CD', level: 'gold' },
     ],
   },
   {

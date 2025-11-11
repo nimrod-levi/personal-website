@@ -7,6 +7,11 @@ export const projects: Project[] = [
     technologies: ["Python", "Pandas", "FastAPI", "MsSQL", "Docker", "Kubernetes", "Git", "GSLB", "ChronJobs"]
   },
   {
+    title: "Geographic Optimization",
+    description: "Geographic optimization for finding the best location based on various factors",
+    technologies: ["Python", "Pandas", "Shapely", "NumPy", "Plotly Express", "PL/SQL"]
+  },
+  {
     title: "Youtube Shorts Limiter Extension",
     description: "Extension for Safari and Chrome that reminds you when you've doom-scrolled enough",
     technologies: ["JavaScript", "CSS"],
