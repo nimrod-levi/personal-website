@@ -17,19 +17,16 @@ export const heroSubheading: string = "Building beautiful software solutions"
 export const heroButtonText: string = "Get in Touch"
 
 export const aboutHeading: string = "About Me"
-export const aboutDescription: string = "more..."
+export const aboutDescription: string = "I love solving problems, learning new things and making life more efficient."
 
 export const skillsHeading: string = "Skills & Technologies"
-export const skillsDescription: string = "Technologies and tools I work with"
+export const skillsDescription: string = "Technologies and tools I've worked with"
 
 export const projectsHeading: string = "Projects"
 export const projectsDescription: string = "Here are some of my recent projects"
 
 export const contactHeading: string = "Get In Touch"
 export const contactDescription: string = "I'd love to hear from you. Feel free to reach out!"
-export const contactEmailLabel: string = "Email"
-export const contactGitHubLabel: string = "GitHub"
-export const contactLinkedinLabel: string = "LinkedIn"
 
 export const footerText: string = "© 2025 Nimrod Levi. All rights reserved."
 
